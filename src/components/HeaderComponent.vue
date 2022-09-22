@@ -1,29 +1,27 @@
 <template>
   
-<div class="container">
-    <div class="row">
-        <div class="col-4">
-          <img src="../assets/img/dc-logo.png" alt="">
+    <div class="container progress bg-white" style="height:10rem">
+        <div class="container row align-items-center progress bg-white" style="height:10rem">
+            <div class="col">
+            <img src="../assets/img/dc-logo.png" alt="">
+            </div>
+            
+            <div class="col">
+                <ul class="d-flex ">
+                    <li>CHARACTERS</li>
+                    <li>COMICS</li>
+                    <li>MOVIES</li>
+                    <li>TV</li>
+                    <li>GAMES</li>
+                    <li>COLLECTIBLES</li>
+                    <li>VIDEOS</li>
+                    <li>FANS</li>
+                    <li>NEWS</li>
+                    <li>SHOP</li>
+                </ul>
+            </div>
         </div>
-
-          
-        <div class="col-4">
-            <ul class="d-flex">
-                <li class="m-3">CHARACTERS</li>
-                <li class="m-3">COMICS</li>
-                <li class="m-3">MOVIES</li>
-                <li class="m-3">TV</li>
-                <li class="m-3">GAMES</li>
-                <li class="m-3">COLLECTIBLES</li>
-                <li class="m-3">VIDEOS</li>
-                <li class="m-3">FANS</li>
-                <li class="m-3">NEWS</li>
-                <li class="m-3">SHOP</li>
-            </ul>
-        </div>
-        
     </div>
-</div>
 
 
 
@@ -46,6 +44,10 @@ name: 'HeaderComponent'
     list-style: none;
  }
 
+ li{
+    font-size: small;
+    margin-right: 2rem;
+ }
 
 
 </style>
