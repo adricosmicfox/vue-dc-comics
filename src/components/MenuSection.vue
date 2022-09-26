@@ -5,7 +5,7 @@
         <div class="row d-flex align-items-center am-icons-container">
             <div class="col">
                 <img class="img-fluid" src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <span>DIGITAL COMICS</span>
+                 <span>DIGITAL COMICS</span>
             </div>
 
             <div class="col">
@@ -50,7 +50,7 @@ name: 'MenuSection'
 <!-- **********STYLE*********** -->
 <style lang="scss" scoped>
   .am-background{
-    background-color: rgb(23, 90, 246);
+    background-color: #0282F9;
     height: 13rem;
   }
 

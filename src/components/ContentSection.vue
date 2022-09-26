@@ -22,8 +22,8 @@ name: 'ContentSection'
 <!-- **********STYLE*********** -->
 <style lang="scss" scoped>
   .am-background{
-    background-color: rgb(32, 32, 32);
-    height: 10rem;
+    background-image: url("../assets/img/jumbotron.jpg") ;
+    height: 22rem;
   }
 
 </style>
